@@ -1,0 +1,101 @@
+CSS
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fffaf7;
+  color: #302421;
+}
+
+header {
+  text-align: center;
+  padding: 22px 10px;
+  background: #342421;
+  color: white;
+  letter-spacing: 2px;
+}
+
+header h1 {
+  font-size: 25px;
+}
+
+.hero {
+  text-align: center;
+  padding: 65px 15px;
+  background: #f0dcd2;
+}
+
+.hero h2 {
+  font-size: 32px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 22px;
+  background: #342421;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+main {
+  padding: 25px 15px;
+  text-align: center;
+}
+
+.filters {
+  margin: 18px 0;
+}
+
+button {
+  padding: 10px 16px;
+  margin: 4px;
+  border: none;
+  border-radius: 5px;
+  background: #e9d3c9;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #c9a99a;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.product {
+  background: white;
+  padding: 8px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #00000012;
+}
+
+.product img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.product h3 {
+  font-size: 16px;
+}
+
+.product p {
+  font-size: 13px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #342421;
+  color: white;
+}
